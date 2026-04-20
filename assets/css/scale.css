@@ -1,0 +1,150 @@
+/* ================= 934px ================= */
+@media only screen and (max-width: 934px){
+
+    .content{
+        width:100%;
+    }
+
+    .auth-content {
+        width: 50%;
+    }
+
+    .content .main-content,
+    .content .sidebar,
+    .content .main-content .post{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .content .sidebar .section.search {
+        margin: 30px 0;
+    }
+
+    .footer,
+    .footer .footer-content {
+        height: auto;
+bottom: 0px;
+flex-direction: row;
+font-size: 0.8em;
+    }
+
+    .footer .footer-content .contact-form {
+        padding-bottom: 90px;
+    }
+
+    .footer .footer-content .contact-form .contact-btn{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 771px){
+    .nav li:hover > ul{
+        display: block;
+    }
+}
+
+@media (min-width: 771px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+
+
+/* ================= 770px ================= */
+@media (max-width: 770px) {
+
+    .content .main-content .post{
+        height: auto;
+    }
+
+
+header .logo {
+display:none;
+}
+
+    .nav {
+font-size: 0.8em;
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        top: 5px;
+left: 60px;
+        right: 5px;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .nav.showing {
+        display: flex;
+    }
+
+    .nav li ul {
+        position: static;
+        box-shadow: none;
+    }
+
+.btn {
+margin: 10px 10px;
+font-size: 0.9em;
+}
+
+    .footer,
+    .footer .footer-content {
+        height: auto;
+bottom: 0px;
+flex-direction: row;
+    }
+
+.footer .footer-content .contact-form{
+display:none;
+}
+
+}
+/* ================= 500px ================= */
+@media only screen and (max-width: 500px){
+
+
+    .auth-content {
+        width: 90%;
+    }
+
+    .content .main-content.single{
+        padding: 10px 20px;
+    }
+
+    .content .main-content .post{
+        height: auto;
+    }
+
+    .content .main-content .post .post-image,
+    .content .main-content .post .post-preview{
+        width: 100%;
+    }
+
+    .content .main-content .post .read-more {
+        position: static;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .post-slider .next {
+        right: 20px;
+    }
+
+    .post-slider .prev {
+        left: 20px;
+    }
+
+    .footer,
+    .footer .footer-content {
+        height: auto;
+bottom: 0px;
+flex-direction: row;
+font-size: 0.7em;
+    }
+
+
+}
